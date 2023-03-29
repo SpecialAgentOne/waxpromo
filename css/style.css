@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/waxpromo/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+header {
+    background-color: #CB304D;
+    height: 146px;
+}
+
+.logo {
+    display: block;
+    padding-top: inherit;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+    color: #000000;
+    line-height: 1.5;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding-top: 46px;
+    margin-left: 46px;
+    margin-right: 46px;
+    width: 1205px;
+}
+
+h1 {
+    color: #040404;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow : 0 0 0 #040404;
+}
+
+.small-block__soon {
+    width: 362px;
+    text-align: left;
+}
