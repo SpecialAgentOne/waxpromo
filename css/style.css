@@ -13,6 +13,13 @@ header {
     height: 146px;
 }
 
+@media screen and (max-width: 992px) {
+    .second-page__header {
+        background-color: #035748;
+        height: 186px !important;
+    }
+}
+
 .second-page {
     margin-top: 46px;
 }
@@ -41,6 +48,17 @@ img {
     margin: auto;
 }
 
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        padding-top: 66px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 82px;
+        width: auto;
+    }
+}
+
 body {
     margin: 0;
     background-color: #ffffff;
@@ -54,6 +72,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 1205px;
+}
+
+@media screen and (max-width: 992px) {
+    main .second-page {
+        width: auto;
+    }
 }
 
 h1 {
@@ -203,4 +227,140 @@ h1 {
 
 .small-block {
     padding: 20px;
+}
+
+.hidden-desktop {
+    background-color: #CB304D;
+    color: #ffffff;
+    padding-top: 36px;
+    padding-bottom: 80px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 168px;
+    text-align: center;
+}
+
+.mobile-footer {
+    padding-top: 48px;
+}
+
+@media screen and (max-width: 992px) {
+
+    #first-mobile__image {
+        margin-top: 10px !important;
+    }
+
+    #second-mobile__image {
+        padding: auto;
+    }
+
+    .second-page {
+        text-align: center;
+    }
+
+    .mail {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    .insta {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    .mail:before {
+        display: inline-flex;
+        vertical-align: middle;
+        content: '';
+        background-image: url('/waxpromo/images/envelope-white.svg');
+        background-size: 40px 38px;
+        height: 38px;
+        width: 40px;
+    }
+    
+    .insta:before {
+        display: inline-flex;
+        vertical-align: middle;
+        content: '';
+        background-image: url('/waxpromo/images/instagram-white.svg');
+        background-size: 40px 40px;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .nodecoration {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .img-secondpage {
+        float: left;
+        margin-top: 46px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .green-text {
+        float: left;
+        overflow: hidden;
+        color: #035748;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 80%;
+    }
+
+    .spacer {
+        display: none;
+    }
+
+    .first-page {
+        display: none;
+    }
+
+    .second-page {
+        display: none;
+    }
+
+    .second-page__mobile-img {
+        display: block;
+        padding-top: 120px;
+        padding-left: 100px;
+        padding-bottom: 120px;
+    }
+
+    .second-page__mobile-img img {
+        width: 800px;
+        height: auto;
+    }
+
+    .second-page__mobile-text {
+        text-align: center;
+        color: #035748;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 120px;
+    }
+}
+
+
+@media screen and (min-width:993px) {
+    .hidden-desktop {
+        display: none !important;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    .second-page__mobile {
+        display: none;
+    }
 }
