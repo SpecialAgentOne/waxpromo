@@ -3,7 +3,7 @@
     src: url(/waxpromo/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
-header {
+.first-page__header {
     background-color: #CB304D;
     height: 146px;
 }
@@ -14,10 +14,19 @@ header {
 }
 
 @media screen and (max-width: 992px) {
+    .first-page__header {
+        background-color: #CB304D;
+        height: 186px !important;
+    }
+    
     .second-page__header {
         background-color: #035748;
         height: 186px !important;
     }
+}
+
+.first-page {
+    margin-top: 46px;
 }
 
 .second-page {
@@ -65,6 +74,9 @@ body {
     color: #000000;
     line-height: 1.5;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 main {
@@ -245,17 +257,27 @@ h1 {
     padding-top: 48px;
 }
 
+.map-mobile {
+    display: block;
+    width: 800px;
+    margin-top: 120px;
+}
+
+.map-mobile img {
+    width: 800px;
+    height: auto;
+    margin: auto !important;
+}
+
+/* Sizes for mobile phones */
+
 @media screen and (max-width: 992px) {
 
-    #first-mobile__image {
-        margin-top: 10px !important;
+    .first-page__mobile {
+        text-align: center;
     }
 
-    #second-mobile__image {
-        padding: auto;
-    }
-
-    .second-page {
+    .second-page__mobile {
         text-align: center;
     }
 
@@ -298,6 +320,55 @@ h1 {
         color: #ffffff;
     }
 
+    #first-mobile__image {
+        float: left;
+        margin-top: -100px;
+        margin-bottom: 100px;
+        width: 800px;
+        height: auto;
+    }
+
+    #second-mobile__image {
+        float: left;
+        margin-top: 46px;
+        margin-bottom: 250px;
+        width: 800px;
+        height: auto;
+    }
+
+    .upper-block__soon-mobile {
+        margin-top: 300px;
+        margin-bottom: 150px;
+        font-size: 120px;
+    }
+
+    .upper-block__text-mobile {
+        margin-bottom: 150px;
+        font-size: 38px;
+    }
+
+    .upper-block__soon {
+        float: left;
+        margin-top: 46px;
+    }
+
+    .upper-block__text {
+        float: left;
+        margin-top: 46px;
+    }
+
+    .bottom_block__button{
+        text-align: center;
+        margin: 0 0 300px 0 !important;
+        margin: 60px auto 60px auto;
+    }
+
+    .btn {
+        text-align: center;
+        font-size: 48px;
+        padding: 40px 80px 40px 80px;
+    }
+
     .img-secondpage {
         float: left;
         margin-top: 46px;
@@ -328,6 +399,11 @@ h1 {
         display: none;
     }
 
+    .central-block__mobile {
+        display: block;
+        padding-left: 100px;
+    }
+
     .second-page__mobile-img {
         display: block;
         padding-top: 120px;
@@ -348,15 +424,40 @@ h1 {
         padding-right: 10px;
         padding-bottom: 120px;
     }
+
+    .mobile-header {
+        background-color: #CB304D;
+        height: 146px;
+    }
+
+    .logo-mobile {
+        display: block;
+        padding-top: 26px;
+        height: 36px;
+    }
+
+    main {
+        display: none;
+    }
 }
 
+
+/* Hiding mobile elements for desktop users */
 
 @media screen and (min-width:993px) {
     .hidden-desktop {
         display: none !important;
     }
 
+    .mobile-header {
+        display: none;
+    }
+
     .mobile-footer {
+        display: none;
+    }
+
+    .first-page__mobile {
         display: none;
     }
 
