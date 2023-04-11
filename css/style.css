@@ -26,11 +26,17 @@
 }
 
 .first-page {
-    margin-top: 46px;
+    margin-top: 0px;
 }
 
 .second-page {
     margin-top: 46px;
+}
+
+.second-page img {
+    -webkit-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+    -moz-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+    box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
 }
 
 .green-text {
@@ -48,7 +54,7 @@ img {
 
 .img-secondpage {
     float: left;
-    padding-right: 80px;
+    margin-right: 80px;
 }
 
 .logo {
@@ -80,7 +86,6 @@ body {
 }
 
 main {
-    padding-top: 46px;
     margin-left: auto;
     margin-right: auto;
     width: 1205px;
@@ -121,8 +126,14 @@ h1 {
     margin-top: 40px;
 }
 
+.central-block img {
+    -webkit-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+    -moz-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+    box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+}
+
 .central-block__padding {
-    padding: 0 25px 0 25px;
+    margin: 0 25px 0 25px;
     width: 254px;
     height: 284px;
     display: inline-block;
@@ -141,10 +152,10 @@ h1 {
 }
 
 .central-block__map {
-    width: 305px;
-    height: 622px;
+    width: 315px;
+    height: 522px;
     float: right;
-    margin-top: -450px;
+    margin-top: -350px;
     padding-left: 200px;
 }
 
@@ -152,6 +163,7 @@ h1 {
     float: left;
     margin-top: 70px;
     margin-left: 47px;
+    padding-bottom: 50px;
 }
 
 .bottom-block__button {
@@ -266,7 +278,7 @@ h1 {
 .map-mobile img {
     width: 800px;
     height: auto;
-    margin: auto !important;
+    margin-left: 30px;
 }
 
 /* Sizes for mobile phones */
@@ -360,7 +372,7 @@ h1 {
     .bottom_block__button{
         text-align: center;
         margin: 0 0 300px 0 !important;
-        margin: 60px auto 60px auto;
+        margin: 60px 0 60px 0;
     }
 
     .btn {
@@ -401,7 +413,11 @@ h1 {
 
     .central-block__mobile {
         display: block;
-        padding-left: 100px;
+        margin-left: 60px;
+    }
+
+    .central-block__mobile .btn {
+        margin-left: -60px;
     }
 
     .second-page__mobile-img {
@@ -414,6 +430,9 @@ h1 {
     .second-page__mobile-img img {
         width: 800px;
         height: auto;
+        -webkit-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+        -moz-box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
+        box-shadow: 30px 30px 0px 0px rgba(3, 87, 72, 1);
     }
 
     .second-page__mobile-text {
