@@ -63,6 +63,13 @@ img {
     margin: auto;
 }
 
+.logo-desc {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
 @media screen and (max-width: 992px) {
     .logo {
         display: block;
