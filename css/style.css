@@ -1,6 +1,6 @@
 @font-face {
     font-family: Montserrat;
-    src: url(/waxpromo/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 .first-page__header {
@@ -127,10 +127,11 @@ h1 {
     text-align: left;
     margin-left: 250px;
     padding-top: 40px;
+    line-height: 1em;
 }
 
 .central-block {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .central-block img {
@@ -158,8 +159,10 @@ h1 {
     margin-left: 1300px;
 }
 
+/* old width 315px and height 522px */
+
 .central-block__map {
-    width: 315px;
+    width: 295px;
     height: 522px;
     float: right;
     margin-top: -350px;
@@ -168,9 +171,9 @@ h1 {
 
 .bottom-block {
     float: left;
-    margin-top: 70px;
+    margin-top: -80px;
     margin-left: 47px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .bottom-block__button {
@@ -181,8 +184,15 @@ h1 {
 .bottom-block__contacts {
     float: left;
     text-align: left;
-    padding-left: 310px;
-    margin-top: -35px;
+    margin-left: 316px;
+    margin-top: -40px;
+}
+
+.bottom-block__hire {
+    float: left;
+    text-align: left;
+    margin-left: 84px;
+    margin-top: -50px;
 }
 
 .btn {
@@ -218,6 +228,7 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .insta {
@@ -235,7 +246,7 @@ h1 {
     display: inline-flex;
     vertical-align: middle;
     content: '';
-    background-image: url('/waxpromo/images/envelope.svg');
+    background-image: url('/images/envelope.svg');
     background-size: 20px 18px;
     height: 18px;
     width: 20px;
@@ -245,7 +256,7 @@ h1 {
     display: inline-flex;
     vertical-align: middle;
     content: '';
-    background-image: url('/waxpromo/images/instagram.svg');
+    background-image: url('/images/instagram.svg');
     background-size: 20px 20px;
     height: 20px;
     width: 20px;
@@ -318,7 +329,7 @@ h1 {
         display: inline-flex;
         vertical-align: middle;
         content: '';
-        background-image: url('/waxpromo/images/envelope-white.svg');
+        background-image: url('/images/envelope-white.svg');
         background-size: 40px 38px;
         height: 38px;
         width: 40px;
@@ -328,7 +339,7 @@ h1 {
         display: inline-flex;
         vertical-align: middle;
         content: '';
-        background-image: url('/waxpromo/images/instagram-white.svg');
+        background-image: url('/images/instagram-white.svg');
         background-size: 40px 40px;
         height: 40px;
         width: 40px;
@@ -354,6 +365,14 @@ h1 {
         width: 800px;
         height: auto;
     }
+    
+    #third-mobile__image {
+        float: left;
+        margin-top: 46px;
+        margin-bottom: 250px;
+        width: 800px;
+        height: auto;
+    }
 
     .upper-block__soon-mobile {
         margin-top: 300px;
@@ -364,6 +383,7 @@ h1 {
     .upper-block__text-mobile {
         margin-bottom: 150px;
         font-size: 38px;
+        line-height: 1em;
     }
 
     .upper-block__soon {
@@ -374,6 +394,15 @@ h1 {
     .upper-block__text {
         float: left;
         margin-top: 46px;
+    }
+    
+    .central-block__text-mobile {
+        float: left;
+        margin: 46px auto 250px 40px;
+        width: 800px;
+        height: auto;
+        font-size: 48px;
+        text-align: center !important;
     }
 
     .bottom_block__button{
@@ -446,6 +475,7 @@ h1 {
         text-align: center;
         color: #035748;
         font-weight: 500;
+        margin: 0 20px 0 20px;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 120px;
